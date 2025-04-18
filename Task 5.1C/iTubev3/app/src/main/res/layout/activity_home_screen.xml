@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="123dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Youtube URL"
+        android:alpha="0.7"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="2dp">
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="85dp" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="238dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:text="PLAY"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="21dp" />
+
+    <Button
+        android:id="@+id/add_to_playlist_button"
+        android:layout_width="238dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:text="ADD TO PLAYLIST"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="21dp" />
+
+    <Button
+        android:id="@+id/my_playlist_button"
+        android:layout_width="238dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:text="MY PLAYLIST"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="21dp" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="238dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:text="LOGOUT"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/news_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News Title"
+            android:gravity="center"
+            android:layout_below="@id/news_image"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/news_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:layout_below="@id/news_title"
+            android:text="News Content"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/related_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="left"
+            android:layout_below="@id/news_content"
+            android:text="Related News"
+            android:textColor="@color/my_primary"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/news_recycler_row"
+            android:scrollbars="vertical"
+            android:layout_below="@id/related_news"
+            android:id="@+id/related_news_recycler_view"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
