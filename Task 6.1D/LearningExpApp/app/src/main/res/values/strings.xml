@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LearningExpApp</string>
+    <string name="topic_1">Algorithms</string>
+    <string name="topic_2">Famous Brands</string>
+    <string name="topic_3">Cosmology</string>
+    <string name="topic_4">Data Structures</string>
+    <string name="topic_5">Web Development</string>
+    <string name="topic_6">Testing</string>
+    <string name="topic_7">Sports</string>
+    <string name="topic_8">Video Games</string>
+    <string name="topic_9">Classical Music</string>
+    <string name="topic_10">Japanese Culture</string>
+    <string name="topic_11">Vietnamese Culture</string>
+    <string name="topic_12">Celebrities</string>
+    <string name="topic_13">Physics</string>
+    <string name="topic_14">Chemistry</string>
+    <string name="topic_15">Mathematics</string>
+    <string name="topic_16">Geography</string>
+    <string name="welcome_text">SIT708 Quiz App</string>
+    <string name="input_field">Enter Your Name: </string>
+    <string name="start_button">Start</string>
+    <string name="clear_button">Clear</string>
+    <string name="literature">Literature</string>
+    <string name="question_quiz">Literature Quiz</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="finish">Finish</string>
+    <string name="final_result">Final Result</string>
+    <string name="subject">Subject :</string>
+    <string name="correct">Correct :</string>
+    <string name="incorrect">Incorrect :</string>
+    <string name="earned">Earned :</string>
+    <string name="date">Date :</string>
+    <string name="total_questions">Total Questions :</string>
+    <string name="overall_points">Overall Points :</string>
+    <string name="start_again">Start Again!</string>
+</resources>
