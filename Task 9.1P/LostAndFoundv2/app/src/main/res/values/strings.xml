@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LostAndFoundv2</string>
+    <string name="create_new">CREATE A NEW ADVERT</string>\
+    <string name="show_all">SHOW ALL LOST &amp; FOUND ITEMS</string>
+    <string name="show_on_map">SHOW ON MAP</string>
+    <string name="post_type">Post type:</string>
+    <string name="lost_type">Lost</string>
+    <string name="found_type">Found</string>
+    <string name="name_field">Name:</string>
+    <string name="phone_field">Phone:</string>
+    <string name="description_field">Description:</string>
+    <string name="date_field">Date:</string>
+    <string name="location_field">Location:</string>
+    <string name="get_current_location_button">Get Current Location</string>
+    <string name="save_button">Save</string>
+    <string name="remove_button">Remove</string>
+    <string name="show_all_title">LOST &amp; FOUND ITEMS</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>
